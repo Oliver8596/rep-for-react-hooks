@@ -29,6 +29,16 @@ export default function Home() {
           <div className={styles["item-container"]}>
             <Link href={"/hookexamples/memo/memo"}>useMemo</Link>
           </div>
+          <div className={styles["item-container"]}>
+            <Link href={"/hookexamples/state/hookstate"}>useState</Link>
+          </div>
+        </div>
+        <div className={styles["row-container"]}>
+          <div className={styles["item-container"]}>
+            <Link href={"/hookexamples/ahooks/hookwebsocket/hookwebsocket"}>
+              ahooks useWebSocket
+            </Link>
+          </div>
         </div>
       </main>
     </>
