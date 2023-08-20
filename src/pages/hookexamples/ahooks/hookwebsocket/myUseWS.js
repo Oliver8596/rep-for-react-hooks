@@ -1,5 +1,5 @@
 /* eslint-disable spellcheck/spell-checker */
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { ReadyState } from "./types";
 
 export const useWebSocket = (path) => {
